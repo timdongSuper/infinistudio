@@ -1,0 +1,33 @@
+.content{
+	width: 35%;
+    margin: 0 auto;
+    padding-top: 130px;
+	font-size: 10px;
+	min-width: 500px;
+	text-align: left;
+}
+h1{
+	margin: 15px 0;
+}
+p{
+	display: block;
+	width: 100%;
+}
+
+.content>img{
+	width: 95%;
+}
+
+.img{
+	width: 40%;
+}
+.img>img{
+	width: 100%;
+}
+
+@media screen and (max-width: 685px){
+	.content{
+		font-size: 5px;
+		min-width: 300px;
+	}
+}
